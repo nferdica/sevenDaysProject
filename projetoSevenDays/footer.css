@@ -1,0 +1,39 @@
+.rodape {
+    text-align: center;
+    background-color: var(--cor-fundo-footer);
+}
+
+.novidades {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-texto);
+    margin-bottom: 2em;
+}
+
+.email {
+    padding: 1em;
+    width: 30em;
+    border-radius: 8px;
+    border: 2px solid var(--cor-borda-cinza);
+}
+
+.botao_cadastrar {
+    background-color: var(--vermelho-principal);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 1em;
+    padding: 1em 2em 1em 2em;
+    border-radius: 8px;
+}
+
+.botao_cadastrar:hover {
+    border: 1px solid black;
+}
+
+.copy {
+    padding: 2em 0 10em 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-copy);
+}

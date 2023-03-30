@@ -1,0 +1,24 @@
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
+
+body{
+	font-family: 'Inter', sans-serif;
+}
+
+:root{
+	--branco-principal: #FFFFFF;
+	--vermelho-principal: #8E2424;
+	--cor-letra: #3A404E;
+	--cor-letra2: #101828;
+	--cor-texto: #667085;
+	--cor-fundo-vagas: #C3191908;
+	--cor-borda-cinza:#EAECF0;
+	--cor-fundo-footer: #F9FAFB;
+	--cor-copy: #98A2B3;
+}
+
+.login a{
+	text-decoration: none;
+}
+

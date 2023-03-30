@@ -1,0 +1,38 @@
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	margin: 1em;
+}
+
+.categorias {
+	display: flex;
+	align-items: center;
+}
+
+.categorias-itens {
+	margin: 1.5em;
+	color: var(--cor-letra);
+}
+
+.login {
+	margin: 1.5em;
+	display: flex;
+	align-items: center;
+}
+
+.botão_entrar {
+	background-color: var(--vermelho-principal);
+	color: var(--branco-principal);
+	padding: 6%;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.botão_entrar:hover {
+	border: 1px solid black;
+}

@@ -1,0 +1,151 @@
+/* SOBRE NÓS */
+.sobre_nos {
+    text-align: center;
+    margin: 5em;
+}
+
+.sb_titulo1 {
+    font-weight: 600;
+    color: var(--vermelho-principal);
+    padding: 2em;
+}
+
+.titulo_principal {
+    font-weight: 600;
+    font-size: 48px;
+    padding: 1em;
+    color: var(--cor-letra2);
+}
+
+.texto_principal {
+    padding: 0 10em 0 10em;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 3em;
+}
+
+/* PONTOS POSITIVOS */
+
+.pontos_positivos {
+    display: flex;
+}
+
+.pontos_positivos_item {
+    margin: 2em 5em 2em 5em;
+}
+
+.titulo1_ponto {
+    color: var(--vermelho-principal);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.titulo2_ponto {
+    color: var(--cor-letra2);
+    font-size: 18px;
+    width: 500;
+    margin-top: 2em;
+}
+
+.texto_ponto {
+    color: var(--cor-texto);
+    margin-top: 1em;
+    line-height: 1.5em;
+}
+
+/* VAGAS */
+
+.vagas {
+    text-align: center;
+}
+
+.vagas_titulo {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5em;
+    color: var(--vermelho-principal);
+    background-color: var(--cor-fundo-vagas);
+    padding: 1em;
+    border-radius: 16px;
+}
+
+/* VAGAS DISPONIVEIS */
+
+.vagas_disponivel_titulo {
+    margin: 2em 15em;
+    text-align: left;
+}
+
+
+
+.titulo_vaga_disponivel {
+    font-size: 20px;
+    color: var(--cor-letra2);
+    font-weight: 500;
+    margin: 5em 2em 2em 2em;
+}
+
+.vagas_disponivel_container {
+    border: 2px solid #EAECF0;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 16px;
+}
+
+.vagas_disponivel_container:hover {
+    box-shadow: 1px 1px 2px black;
+}
+
+
+.vagas_disponivel {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-letra2);
+}
+
+.descricao_vaga_container {
+    display: flex;
+    margin-top: 2em;
+}
+
+.descricao_vaga {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-right: 4em;
+    color: var(--cor-texto);
+}
+
+/* COBALORADORES */
+
+.colaboradores {
+    background-color: var(--cor-fundo-vagas);
+    text-align: center;
+    margin: 5em 5em;
+    padding: 2em;
+    border-radius: 16px;
+}
+
+.titulo_colaboradores {
+    margin-top: 2em;
+    font-size: 14px;
+    color: var(--vermelho-principal);
+    font-weight: 600;
+    line-height: 20px;
+}
+
+
+.nome_avatar {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-letra2);
+    margin: 1em 0 1em 0;
+}
+
+.vaga_avatar {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--cor-texto);
+}
